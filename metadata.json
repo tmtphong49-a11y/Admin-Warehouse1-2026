@@ -1,0 +1,5 @@
+{
+  "name": "admin_report upsatr30.01.2026",
+  "description": "A modern, interactive KPI dashboard to visualize and analyze business metrics from various reports. It supports data uploads from Excel, features multiple report types (KPI, Consumables, OT, Leave, Accident, Workload), and persists data using Firebase.",
+  "requestFramePermissions": []
+}

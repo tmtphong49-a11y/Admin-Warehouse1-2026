@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern KPI Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#6366F1', // Indigo 500
+              'brand-secondary': '#EC4899', // Pink 500
+              'brand-success': '#10B981', // Emerald 500
+              'brand-danger': '#EF4444', // Red 500
+              'brand-warning': '#F59E0B', // Amber 500
+              
+              // Dark Theme
+              'dark-bg': '#0F172A', // Slate 900
+              'dark-card': '#1E293B', // Slate 800
+              'dark-border': '#334155', // Slate 700
+              'dark-text-primary': '#F8FAFC', // Slate 50
+              'dark-text-secondary': '#94A3B8', // Slate 400
+
+              // Light Theme
+              'light-bg': '#F0FDF4', // Light Green (Green 50)
+              'light-card': '#FFFFFF', // White
+              'light-border': '#E2E8F0', // Slate 200
+              'light-text-primary': '#0F172A', // Slate 900
+              'light-text-secondary': '#64748B', // Slate 500
+            },
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+                sarabun: ['Sarabun', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.3.0/",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react": "https://esm.sh/react@18.3.1",
+    "recharts": "https://esm.sh/recharts@2.12.7",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-latest/package/xlsx.mjs",
+    "file-saver": "https://aistudiocdn.com/file-saver@^2.0.5"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-BDFuX2yY.js"></script>
+</head>
+  <body class="bg-light-bg text-light-text-primary dark:bg-dark-bg dark:text-dark-text-primary font-sans">
+    <div id="root"></div>
+  </body>
+</html>
